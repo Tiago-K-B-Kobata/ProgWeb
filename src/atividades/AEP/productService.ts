@@ -22,7 +22,7 @@ import { writeFile, readFile } from 'fs/promises'
                 preco: item.preco,
                 valorStock: item.qtde * item.preco
             } 
-            return stockProducts
+            return stock
         })
     }
  }
