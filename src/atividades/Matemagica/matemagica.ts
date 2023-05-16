@@ -75,3 +75,5 @@ class matemagica {
     }
 
 }
+
+export default new matemagica
